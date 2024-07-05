@@ -27,5 +27,6 @@
             "src/ComposerClient.php",
             "src/ComposerConsole.php"
         ]
-    }
+    },
+    "minimum-stability": "stable"
 }
