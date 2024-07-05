@@ -20,6 +20,11 @@
     "autoload": {
         "psr-4": {
             "tomazov\\GeoIP2Update\\": "src/"
-        }
+        },
+        "classmap": [
+            "vendor/tomazov/geoip2-update/src/Client.php",
+            "vendor/tomazov/geoip2-update/src/ComposerClient.php",
+            "vendor/tomazov/geoip2-update/src/ComposerConsole.php"
+        ]
     }
 }
