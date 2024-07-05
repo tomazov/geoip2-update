@@ -300,6 +300,8 @@ class Client
             CURLOPT_HTTPGET => true,
             CURLOPT_BINARYTRANSFER => true,
             CURLOPT_HEADER => false,
+            CURLOPT_CUSTOMREQUEST => 'GET',
+            CURLOPT_FOLLOWLOCATION => true,
             CURLOPT_FILE => $fh,
         ));
         $response = curl_exec($ch);
